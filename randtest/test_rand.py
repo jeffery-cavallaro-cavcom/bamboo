@@ -16,7 +16,7 @@ class TestRand(unittest.TestCase):
     def test_success(self):
         """ Always successful """
         value = random.random()
-        self.assertGreaterEqual(value, 0.0)
+        self.assertGreaterEqual(xvalue, 0.0)
         self.assertLessEqual(value, 1.0)
 
     def test_50(self):
